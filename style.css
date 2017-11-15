@@ -122,12 +122,11 @@ border: 2px solid blue;
 }
 .table {
 	background-color: #f9fafc;
-	height: 100vh;
-	min-height:600px;
 	padding:10rem;
 }
 .table-header {
 	text-align:center;
+	margin-bottom:5rem;
 }
 
 .table-header span  {
@@ -171,15 +170,122 @@ border: 2px solid blue;
 	align-items:center;
 }
 .price-tag {
-	padding:2rem;
+	background-color:#fff;
+	border-radius:2rem;
+	padding:3rem;
 	text-align:center;
-	aligh-items:center;
-	width:300px;
-	height:400px;
-	border: 1px solid red;
+	align-items:center;
+	width:35rem;
 	display:flex;
 	flex-direction:column;
+	justify-content:space-between;
+	transition:0,2s;
 }
-.img {
-	width:6rem;
+.price-tag:hover {
+cursor:pointer;
+box-shadow:0px 0px 60px 10px rgba(204,204,223,0.71);
+}
+.price-tag span {
+	font-size:1.4rem;
+	text-transform:uppercase;
+	margin:3rem auto 1rem;
+	
+}
+.price-tag h4 {
+	foont-weight:500 ;
+	font-size:3rem;
+	color:#4f4f6f;
+	margin:1rem;
+}
+.price-tag h4 sub {
+	font-size:1.4rem;
+}
+.price-tag h4 sup {
+	vertical-align:super;
+	font-size:1.4rem;
+}
+.price-tag p {
+	color:#9fa4af;
+}
+.price-btn {
+	background-color:#fff;
+	border:#9fa4af 1px solid;
+	color:#9fa4af;
+	text-transform:uppercase;
+	font-size:1rem;
+	font-weight:300;
+	padding:1rem 4rem;
+	border-radius:100px;
+	transition:0.2s;
+}
+.price-btn:hover {
+	background-color:#6e45e2;
+	color:#fff;
+	box-shadow:none;
+	cursor:pointer;
+}
+.call-to-action {
+	background:url(group2.png) no-repeat center;
+	text-align:center;
+	background-size:cover;
+	padding:20rem;
+	position:relative;
+	color:#fff;
+}
+.call-to-action span {
+ font-size:2rem;
+ text-transform:uppercase;
+ font-weight:500px;
+}
+.call-to-action h4 {
+font-weight:500;
+font-size:4.5rem;
+margin:1rem auto 2rem;
+}
+.cta-btn {
+display:inline-block;
+border:none;
+background-color:#fff;
+color:#c2c9db;
+width:19rem;
+font-size:1.3rem;
+text-transform:uppercase;
+font-weight:700;
+height:5rem;
+margin:1rem;
+border-radius:100px;
+transition:0.2s;
+}
+.cta-btn:hover {
+	background-color:#6e45e2;
+	cursor:pointer;
+}
+.wrap {
+z-index:2;
+position:relative;
+}
+.footer-wrap {
+display:flex;
+justify-content:center;
+}
+.footer {
+	height:15vh;
+	align-items:center;
+	width:90%;
+	display:flex;
+	justify-content:space-between;
+}
+.footer-menu {
+	width:50%;
+}
+.footer-menu ul {
+	display:flex;
+	justify-content:space-between;
+	list-style:none;
+}
+.footer-menu-link {
+	font-size:1.4rem;
+	text-decoration:none;
+	color:#6a6a77;
+	font-weight:500;
 }
