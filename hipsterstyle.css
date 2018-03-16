@@ -14,8 +14,8 @@
 	flex-direction: column;
 	justify-content:space-between;
 	align-items: center;
-	height: 3145px;
-		min-height: 600px;
+	height: 100px;
+		min-height: 50px;
 		background: url(images/Main.png) no-repeat center;
 	width: 4717px;
 	background-size: cover;
@@ -291,6 +291,4 @@ justify-content:center;
 	font-weight:500;
 }
 
-#Check {
-
-}
+/*Pricing table*/
